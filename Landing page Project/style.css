@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.Hero-section{
+    background-image: url(./image/Hero-image.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.content{
+    max-width: 900px;
+    padding-top: 100px;
+    margin: 0 auto;
+    color: white;
+    padding-top: 60px;
+    padding-left:135px ;
+}
+.text{
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 70px;
+}
+.back-box-section h2{
+    width: 100%;
+    height: 169px;
+    left: 212px;
+    top: 815px;
+    background-color: black;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    letter-spacing: 5px;
+
+}
+.U-text{
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 84px;
+    letter-spacing: 5px;
+
+}
+.work{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit,minmax(320px ,1fr));
+    margin: 50px auto;
+    max-width: 1100px;
+
+}
+.card{
+    height: 400px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);;
+    transition: 0.1s ease-in-out;
+
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 auto; */
+    transform: scale(1.03);
+    padding:20px;
+}
+.image-content{
+    padding: 20px;
+}
+.image-content h3{
+    margin-bottom: 10px;
+}
+.card:hover{
+    transform: scale(1.03);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.25);;
+    transition: 0.1s ease-in-out;
+}
+.bottom-section{
+    display: flex;
+
+}
+.contact{
+    background-color: #515603;
+    
+}
+.about{
+    background-color: #722300;
+
+}
+
+.contact,.about{
+    min-width: 300px;
+    padding: 32px;
+    color: white;
+}
+.contact p,.about p{
+    margin-bottom: 20px;
+}
+.contact h2,.about h2{
+    font-size: 50px;
+    font-weight: 250px;
+}
+.foot-text{
+    text-align: center;
+    padding: 40px;
+    background-color: rgb(39, 37, 37);
+    color: white;
+}
+
+@media(max-width:786px){
+    .Hero-section{
+        min-height: 50vh;
+
+    }
+    .content{
+        padding: 10px 0;
+        text-align: center;
+    }
+    .text{
+        font-size: 32px;
+    }
+    .back-box-section h2{
+        font-size: 24px;
+    }
+    .back-box-section h2 .U-text{
+        font-weight: 400;
+        font-size: 32px;
+    }
+    .foot-text{
+        flex-direction: column;
+    }
+}
