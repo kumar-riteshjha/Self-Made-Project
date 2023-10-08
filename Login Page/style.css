@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap');*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 100wh;
+    height: 100vh;
+    background: linear-gradient(to right bottom,   #59438e , #3d205b    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-box{
+    width: 50%;
+    max-width: 400px;
+    background-color: #c0c5be;
+    border-radius: 8px;
+    padding:20px 28px;
+    margin-left:20px ;
+    margin-right:20px ;
+
+
+}
+.form-box header h1{
+    text-align: center;
+    color: rgb(81, 43, 176);
+
+}
+.form-box form{
+    margin-block: 30px;
+    
+}
+input{
+  width: 100px;
+  padding: 18px 16px;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background-color:#a3a3a331;
+  font-size:16px;
+  margin: 12px 0;
+}
+
