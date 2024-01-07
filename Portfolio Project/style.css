@@ -47,7 +47,8 @@
     font-size:28px;
 }
 
-.nav-items{
+.nav-items
+{
     display: flex;
     align-items: center;
     gap: 2rem;
